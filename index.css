@@ -1,25 +1,101 @@
-html, body{
-    height:100%;
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 20px;
 }
 
-.g-p-contaniner{
-    display:table; height:100%; margin: 0 auto;
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    width: 30vw;
 }
 
-.p-container{
-    display:table-cell; vertical-align:middle;
-}	
+p {
+    font-size: small;
+    margin-top: -10px;
+}
 
+main {
+    display: flex;
+    justify-content: end;
+    width: 70vw;
+    height: 70vh;
+    margin: 3rem auto;
+    background: rgb(243, 93, 93);
+    padding: 2rem 1.6rem 6rem 1.6rem;
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+.section {
+    display: flex;
+    justify-content: end;
+    width: 30vw;
+    height: 40vh;
+    background: white;
+    padding: 2rem 1.6rem 6rem 1.6rem;
+    border-radius: 5px;
+    box-shadow: 0 2rem 2rem gray;
+}
+  
 .login-caption {
     background-color: blueviolet;
     color: white;
     border-radius: 5px;
-    width: 20vw;
+    width: 25vw;
     font-size: small;
-    padding: 5px;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-shadow: 1px 5px 1px rgba(74, 59, 59, 0.27);
 }
 
 input {
     width: 20vw;
+    padding: 10px;
+    border-radius:  3px;
+    border: 1px aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: .5px .5px .5px 1px rgb(177, 175, 174);
 }
 
+table.menu {
+    width: auto;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: auto;
+    border: 1px solid white ;
+    background-color: white;
+    padding: 20px 20px 30px 20px;
+    box-shadow: 1px 5px 1px rgba(74, 59, 59, 0.27);
+    border-radius: 5px;
+}
+
+.confirm {
+    color: rgb(118, 109, 109);
+    font-size: 8px;
+    width: 20vw;
+    margin-left: 25px;
+}
+
+.btn {
+    background-color: rgb(0, 115, 52);
+    color: white;
+    padding: 13px;
+    border-radius: 3px;
+    width: 21.6vw;
+    font-size: 10px;
+}
+
+a {
+    color: rgb(247, 18, 18);
+    text-decoration: none;
+}
