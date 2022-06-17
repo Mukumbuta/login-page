@@ -1,0 +1,25 @@
+html, body{
+    height:100%;
+}
+
+.g-p-contaniner{
+    display:table; height:100%; margin: 0 auto;
+}
+
+.p-container{
+    display:table-cell; vertical-align:middle;
+}	
+
+.login-caption {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    width: 20vw;
+    font-size: small;
+    padding: 5px;
+}
+
+input {
+    width: 20vw;
+}
+
